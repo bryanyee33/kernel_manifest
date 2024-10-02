@@ -2,6 +2,7 @@
 <manifest>
   <remote name="clo" fetch="https://git.codelinaro.org/clo/la" review="codelinaro.org"/>
   <remote name="github" fetch="https://github.com/"/>
+  <remote name="gitlab" fetch="https://gitlab.com/"/>
   <default remote="clo" revision="kernel.build.lnx.1.0" sync-j="8"/>
   <project name="pa-gr/android_kernel_build" path="kernel_platform/build" revision="uvite-xiaomi-sm8450" remote="github"/>
   <project name="pa-gr/android_kernel_prebuilts_build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="uvite-xiaomi-sm8450" remote="github"/>
@@ -10,6 +11,7 @@
   <project name="pa-gr/android_kernel_xiaomi_sm8450-modules" path="kernel_platform/xiaomi/sm8450-modules" revision="uvite" remote="github"/>
   <project name="bryanyee33/kernel_manifest" path="kernel_platform" revision="uvite-xiaomi-sm8450" remote="github"/>
   <project name="ghostrider-reborn/AnyKernel3" path="AnyKernel3" revision="marble-gki" remote="github"/>
+  <project name="simonpunk/susfs4ksu" path="susfs4ksu" revision="gki-android12-5.10" remote="gitlab"/>
   <project name="kernel_platform/external/dtc" revision="refs/heads/kernel.build.lnx.1.0.r1-rel"/>
   <project name="kernel_platform/prebuilts/build-tools" revision="refs/heads/ks-kernel.lnx.1.0.r1-rel" />
   <project name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="refs/heads/ks-kernel.lnx.1.0.r1-rel"/>
